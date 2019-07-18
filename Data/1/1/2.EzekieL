@@ -1,0 +1,38 @@
+bind a "+moveleft;adjust_crosshair 1;con_color 999"                               // Camina acia la Izq. y  Cambia el Color 
+bind s "+back;adjust_crosshair 2;con_color 000+000+999"                           // Camina acia Atras y  Cambia el Color 
+bind d "+moveright;adjust_crosshair 3;con_color 999+999+000"                      // Camina acia la Der. y  Cambia el Color 
+bind w "+forward;adjust_crosshair 4;con_color 000+999+999"                        // Camina acia Adelante y  Cambia el Color 
+bind space "+jump;adjust_crosshair 5;con_color 500+900+100"                       // Salta y  Cambia el Color 
+bind ctrl "+duck;adjust_crosshair 6;con_color 100+500+900"                        // Se Agacha y  Cambia el Color
+bind shift "+speed;adjust_crosshair 7;con_color 700+000+845"                      // Camina Lento y  Cambia el Color y Para Los Sonidos
+bind mouse1 "+attack;adjust_crosshair 8;con_color 050+466+845"                    // Dispara y  Cambia el Color 
+bind mouse2 "+attack2;adjust_crosshair 9;con_color 154+756+154"                   // Usa Disparo Secundario y  Cambia el Color 
+bind g "drop"                                                    // Dropear Arma
+bind 0 "slot10"                                                  // Slot 0
+bind 1 "slot1"                                                   // Slot 1
+bind 2 "slot2"                                                   // Slot 2
+bind 3 "slot3"                                                   // Slot 3
+bind 4 "slot4"                                                   // Slot 4
+bind 5 "slot5"                                                   // Slot 5
+bind 6 "slot6"                                                   // Slot 6 
+bind 7 "slot7"                                                   // Slot 7
+bind 8 "slot8"                                                   // Slot 8
+bind 9 "slot9"                                                   // Slot 9
+bind ` "toggleconsole"                                           // Muestra la Consola
+bind TAB "+showscores"                                           // Muestra el Puntaje
+bind ESCAPE "cancelselect"                                       // Cancela la Seleccion
+bind e "+use"                                                    // Efectua Accion
+bind n "nightvision"                                             // Activa Vision Nocturna
+bind b "buy"                                                     // Compra Ekipo
+bind q "lastinv"                                                 // Item Anterior
+bind r "+reload"                                                 // Recarga Arma
+bind t "impulse 201;spk Ezekiel/MonsterKill"                     // Usa el Spray
+bind y "messagemode"                                             // Modo Chat
+bind u "messagemode2"                                            // Modo Chat Team
+bind c "radio3"                                                  // Radio 3
+bind x "radio2"                                                  // Radio 2
+bind z "radio1"                                                  // Radio 1
+bind m "+commandmenu"                                            // Menu
+
+
+

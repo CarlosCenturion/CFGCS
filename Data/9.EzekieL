@@ -1,0 +1,245 @@
+////////////////////// BOTS /////////////////////////////
+
+"1" "ZBOTS" 
+{
+            "1" "AGREGAR BOT TERROR"
+{                       
+                         "1"   "1"   "bot_add_t"
+                         "2"   "2"   "bot_add_t;w;bot_add_t"
+                         "3"   "3"   "bot_add_t;w;bot_add_t;w;bot_add_t"
+                         "4"   "4"   "bot_add_t;w;bot_add_t;w;bot_add_t;w;bot_add_t"
+                         "5"   "5"   "bot_add_t;w;bot_add_t;w;bot_add_t;w;bot_add_t;w;bot_add_t"
+}
+            "2" "AGREGAR BOT CT"     
+{
+                         "1"   "1"   "bot_add_ct"
+                         "2"   "2"   "bot_add_ct;w;bot_add_ct"
+                         "3"   "3"   "bot_add_ct;w;bot_add_ct;w;bot_add_ct"
+                         "4"   "4"   "bot_add_ct;w;bot_add_ct;w;bot_add_ct;w;bot_add_ct"
+                         "5"   "5"   "bot_add_ct;w;bot_add_ct;w;bot_add_ct;w;bot_add_ct;w;bot_add_ct"
+}
+            "3" "AGREGAR BOT"        
+{
+                         "1"   "1"   "bot_add"
+                         "2"   "2"   "bot_add;w;bot_add"
+                         "3"   "3"   "bot_add;w;bot_add;w;bot_add"
+                         "4"   "4"   "bot_add;w;bot_add;w;bot_add;w;bot_add"
+                         "5"   "5"   "bot_add;w;bot_add;w;bot_add;w;bot_add;w;bot_add"
+}
+            "4" "MATAR BOTS"         "bot_kill"
+            "5" "SAKAR BOTS"         "bot_kick"
+            "6" "DIFICULTAD 100"     "bot_difficulty 100"
+            "7" "FUN"
+{
+                         "1"   "CAMINAR" "bot_walk 1"
+                         "2"   "CORRER"  "bot_walk 0"
+                         "3"   "STOP"    "bot_stop 1"
+                         "4"   "PLAY"    "bot_stop 0"
+                         "5"   "CUCHI"   "bot_knives_only 1"
+                         "6"   "ARMAS"   "bot_all_weapons 1"
+}
+}
+
+
+////////////////////// SERVER //////////////////////////////
+
+"2" "SERVER" 
+{
+    "1" "CAMBIAR MAPA"
+{
+            "1" "PAINTBALL"       "rcon changelevel cs_paintball"
+            "2" "AZTEC"           "rcon changelevel de_aztec"
+            "3" "DUST"            "rcon changelevel de_dust"
+            "4" "DUST 2"          "rcon changelevel de_dust2" 
+            "5" "INFERNO"         "rcon changelevel de_inferno"
+            "6" "NUKE"            "rcon changelevel de_nuke"
+            "7" "TRAIN"           "rcon changelevel de_train"
+            "8" "HEBOX"           "rcon changelevel he_bombbox"
+            "9" "POOLDAY"         "rcon changelevel fy_pool_day"
+            "10""AWP MAP"         "rcon changelevel awp_map"
+            "11""ICEWORLD"        "rcon changelevel fy_iceworld"
+}
+   "2" "RESTARTEAR RONDA"      "rcon sv_restartround 3"
+
+   "3" "PLATA"
+{           
+            "1" "800"          "rcon mp_startmoney 800"
+            "2" "16000"        "rcon mp_startmoney 16000"
+}
+  "4"  "FUEGO AMIGO"
+{ 
+            "1" "SI"           "rcon mp_friendlyfire 1"
+            "2" "NO"           "rcon mp_friendlyfire 0"
+}
+  "4" "CAMBIAR DE EKIPO"            "chooseteam"
+  "5" "CAMBIAR GRAVEDAD"
+{
+            "1" "10"           "rcon sv_gravity 10"
+            "2" "100"          "rcon sv_gravity 100"
+            "3" "800"          "rcon sv_gravity 800"
+            "4" "100000"       "rcon sv_gravity 100000"
+}
+  "6" "SALIR"
+{
+            "1" "SALIR"        "say  ME VOY A LA MIERDA_! BYE_!;64w;exit"
+            "2" "REENTRAR"     "retry"
+}
+}
+
+//////////////////// VIDEO ///////////////////////////////
+
+"3" "VIDEO"
+{
+           "1" "GRAVAR DEMO"   
+{
+                        "1" "SLOT 1"   "record Demo1"
+                        "2" "SLOT 2"   "record Demo2"
+                        "3" "SLOT 3"   "record Demo3"
+                        "4" "SLOT 4"   "record Demo4"
+                        "5" "SLOT 5"   "record Demo5"
+}
+           "2" "PARAR DEMO"    "stop"
+
+           "3" "VER DEMO"
+{
+                        "1" "SLOT 1"   "playdemo Demo1"
+                        "2" "SLOT 2"   "playdemo Demo2"
+                        "3" "SLOT 3"   "playdemo Demo3"
+                        "4" "SLOT 4"   "playdemo Demo4"
+                        "5" "SLOT 5"   "playdemo Demo5"  
+}
+           "4" "GRAVAR PELICULA" 
+
+{
+                        "1" "SLOT 1"   "startmovie Demo1 30"
+                        "2" "SLOT 2"   "startmovie Demo2 30"
+                        "3" "SLOT 3"   "startmovie Demo3 30"
+                        "4" "SLOT 4"   "startmovie Demo4 30"
+                        "5" "SLOT 5"   "startmovie Demo5 30"
+}
+          "5" "PARAR PELICULA" "exit"
+}
+
+///////////////////// CONFIGS ////////////////////////////
+
+"4" "CONFIGS"
+{
+         "1" "EZEKIEL 1.6" "exec 6.cfg"
+         "2" "EZEKIEL 1.5" "exec 5.cfg"
+}
+
+/////////////////// METAMOD ///////////////////////////////////
+
+"5" "METAMOD"
+{
+                           "1" "RANK"            "say /rank"
+                           "2" "TOP 10"          "say /top10"
+                           "3" "TOP 15"          "say /top15"
+                           "4" "TIMELEFT"        "say /timeleft"
+                           "5" "NEXTMAP"         "say /nextmap"
+                           "6" "MIS STATS"       "say /statsme"
+                           "7" "PJS STATS"       "say /smstats"
+                           "8" "MI STATUS"       "say /report"
+                           "9" "STATME MENU"     "statsme_menu 1"
+}
+
+
+
+
+
+
+ 
+       
+
+
+
+/////////////////// TEXTOS ////////////////////////////////
+
+"6" "TEXTOS"
+{
+                        
+                        "1" "MSN"                   "say mi MSN Looser.Looser@Hotmail.com"
+                        "2" "Web"                   "say Visiten http://xDWeb.TK"
+                        "3" "Cel xD"                "say 15 592410 xD"
+                        "4" "^^"                    "say ^^"
+                        "5" "CS Advanced"           "say Visiten Www.CsAdvanced.Com"
+}
+         
+
+//////////////////// EZEKIEL //////////////////////////////
+
+"7" "PLAYER"
+{      
+        "1" "NICKS"
+
+{
+               "1" "MIOS"
+{   
+                        "1" "Ezekiel"          "name EzekieL"
+                        "2" "ViRuXxX"          "name ViRuXxX"
+                        "3" "InJeKT!oN"        "name InJeKT!oN"
+                        "4" "ScR!PtEr"         "name ScRiPtEr"
+                        "5" "Me Garcho A"      "name MeGarchoA="
+                        "6" "Looser_!"         "name Looser_!"
+}
+               "2" "ADMIN"
+{
+                        "1" "NewBie"           "cmd name NewBie"
+                        "2" "BoboEsponja"      "cmd name BoboEsponja"
+                        "3" "PT"               "cmd name PT"
+                        "4" "Triste"           "cmd name SoyReTriste!"
+                        "5" "Me Mató"          "cmd name MeMató"
+}
+}
+       "2" "SENSIVILIDAD"
+{
+                        "1"    "1"                "sensitivity 1"
+                        "2"    "1.5"              "sensitivity 1.5"
+                        "3"    "2"                "sensitivity 2"
+                        "4"    "2.5"              "sensitivity 2.5"
+                        "5"    "3"                "sensitivity 3"
+                        "6"    "3.5"              "sensitivity 3.5"
+                        "7"    "4"                "sensitivity 4"
+}
+      "3" "VOLUMEN"    
+{
+                        "1"    "1"                "volume 1"
+                        "2"    "1.5"              "volume 1.5"
+                        "3"    "1.9"              "volume 1.9"
+                        "4"    "2"                "volume 2"
+                        "5"    "2.5"              "volume 2.5"
+                        "6"    "3"                "volume 3"
+                        "7"    "9"                "volume 9"
+                        "8"    "999"              "volume 999"
+}
+}
+
+       
+
+///////////////// XTRAX ////////////////////////////////////
+
+"8" "XTRAX"
+{    
+           "1"   "NO RECOIL"
+{
+                    "1" "SI"                       "NRON"
+                    "2" "NO"                       "NROFF"
+}
+           "2"    "GLOCK"
+{
+                    "1" "SI"                       "fgon"
+                    "2" "NO"                       "fgoff"
+}
+           "3"   "SONIDOS"
+{
+                    "1" "TARANTELA"                 "spk sound/ambience/guit1.wav"
+                    "2" "GRITO"                     "spk sound/ambience/fallscream.wav"
+                    "3" "TECHNO"                    "spk sound/ambience/lv5.wav"
+                    "4" "PERRO"                     "spk sound/ambience/dog6.wav"
+}
+}
+
+
+//////////////////// CANCELAR ///////////////////////////
+
+"0" "CANCELAR" "slot10"

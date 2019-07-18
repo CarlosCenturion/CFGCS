@@ -1,0 +1,55 @@
+//  La Gruya                                    
+//Apretar Mientras Recargas un Arma La Tecla Enter del Pad Numerico
+bind KP_enter "+jump;slot5"   
+   
+// El Salto Del Cuchi    
+// Apretar Mientras Recargas un Arma
+bind Kp_plus "+jump;slot3"            
+        
+//  BONNY JUMP                                 
+// Para Ir sAltando Como Un ConeJo Sin PErDer VeloCidAd Ni AlTuRa entRE cAda SalTo .. ( MANTENER APRETADA LA BARRA )
+alias +bhop "alias _special bhop;bhop"      
+alias -bhop "alias _special"
+alias bhop "special;w;+jump;w;-jump"
+bind space "+bhop"                
+
+// AK - COLT No Recoil ( SIMULACION )          
+alias +reak "cl_pitchspeed 3.9; cl_yawspeed 0.7; +attack; +lookdown; +right"
+alias -reak "cl_pitchspeed 300; cl_yawspeed 250; -attack; -lookdown; -right"
+alias NRON "bind mouse1 +reak;Echo .:: NO RECOIL ON =) ::."
+alias NROFF "bind Mouse1 +attack;Echo .:: NO RECOIL OFF ! ::."
+
+// Microfono On/Off
+// para activar el microfono y q kede activado y dsp desactivarlo con la misma tecla ...
+bind v Micon
+alias Micon "+voicerecord;bind v Micof"
+alias Micoff "-voicerecord;bind v Micon"
+
+
+// HE SMOKE y FLASH !
+
+// Para Sakar la He !
+bind mwheelup "weapon_hegrenade"
+
+//Para Sakar la Flash
+Bind mwheeldown "weapon_flashbang;say_team .:: TAPENSE LOS OJOS Q TIRO FLASH ! :) ::."
+
+//Para Sakar Smoke
+bind mouse3 "weapon_smokegrenade" 
+
+
+//TAMAÑO DE LA MIRA 
+// Para Cambiar el Tamaño de La mira
+bind CAPSLOCK Mira2
+alias Mira3 "cl_crosshair_size 3;bind CAPSLOCK Mira1"
+alias Mira2 "cl_crosshair_size 2;bind CAPSLOCK Mira3"
+alias Mira1 "cl_crosshair_size 1;bind CAPSLOCK Mira2"
+
+//Glock Full Auto Mode
+// para Activar / Desactivar el Modo Full Auto con la Glock
+alias +fglock "+attack;+attack2;+attack2;+attack" 
+alias -fglock "-attack;-attack2;-attack2;-attack" 
+alias fg "fgon" 
+alias fgon "bind mouse1 +fglock; alias fg fgoff" 
+alias fgoff "bind mouse1 +attack; alias fg fgon" 
+

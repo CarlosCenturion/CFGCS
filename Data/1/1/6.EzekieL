@@ -1,0 +1,35 @@
+/////////////////////// RADIOS ////////////////////////
+
+alias		ms1		"menuselect 1"
+alias		ms2		"menuselect 2"
+alias		ms3		"menuselect 3"
+alias		ms4		"menuselect 4"
+alias		ms5		"menuselect 5"
+alias		ms6		"menuselect 6"
+alias		ms7		"menuselect 7"
+alias		ms8		"menuselect 8"
+alias		ms9		"menuselect 9"
+alias           ms0             "w;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10"
+
+alias SI "radio3;ms1;w;ms0"
+alias NO "radio3;ms8;w;ms0"
+alias GO "radio2;ms1;w;ms0"
+alias VIAUNO "radio3;ms2;w;ms0"
+alias ACASA "radio3;ms9;w;ms0"
+alias LACAMPEO "radio3;ms5;w;ms0"
+alias AYUDA "radio3;ms3;w;ms0"
+alias SIGANME "radio1;ms5;w;ms0"
+alias LIMPIO "radio3;ms4;w;ms0"
+
+//////////////////////////////////////////////////////////
+
+
+bind kp_leftarrow "say_team .:: IZKIERDA ::.;VIAUNO"
+bind kp_rightarrow "say_team .:: DERECHA ::.;VIAUNO"
+bind kp_uparrow "say_team .:: ARRIBA ::.;VIAUNO"
+bind kp_5 "say_team .:: MEDIO ::.;VIAUNO"
+bind kp_downarrow "say_team .:: ABAJO ! ::.;VIAUNO"
+bind kp_home "say .:: UNO MENOS ::.;ACASA"
+bind kp_pgup "say_team .:: LARGO ::.;VIAUNO"
+bind kp_end "say_team .:: A ::.;VIAUNO"
+bind kp_pgdn "say_team .:: B ::.;VIAUNO"

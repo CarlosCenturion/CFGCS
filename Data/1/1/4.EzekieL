@@ -1,0 +1,45 @@
+// ALIAS
+alias ColtAk      "impulse 101;buy;5w;ms4;5w;ms1;ms3;5w;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10;weapon_knife"
+alias AWP         "impulse 101;buy;5w;ms4;5w;ms6;5w;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10;weapon_knife"
+alias DESERT      "impulse 101;buy;5w;ms1;5w;ms3;slot10;5w;slot10;weapon_knife"
+alias CHALEKO     "impulse 101;buyequip;5w;ms2;slot10;5w;slot10;weapon_knife"
+alias CHALEKOFEO  "impulse 101;buyequip;5w;ms1;slot10;5w;slot10;weapon_knife"
+alias DEFUSER     "impulse 101;buyequip;5w;ms6;slot10;5w;slot10;weapon_knife"
+alias BALAS       "impulse 101;buy;5w;ms6;5w;buy;ms7;5w;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10;weapon_knife"
+alias HE          "impulse 101;buyequip;5w;ms4;slot10;5w;slot10;weapon_knife"
+alias FLASH       "impulse 101;buyequip;5w;ms3;slot10;5w;slot10;weapon_knife"
+alias SMOKE       "impulse 101;buyequip;5w;ms5;slot10;5w;slot10;weapon_knife"
+alias NAVY        "impulse 101;buy;5w;ms3;5w;ms1;5w;;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10;weapon_knife"	
+alias USP         "impulse 101;buy;5w;ms1;5w;ms1;5w;slot10;5w;slot10;weapon_knife"
+alias SCOUT       "impulse 101;buy;5w;ms4;5w;ms2;5w;slot10;5w;slot10;slot10;slot10;5w;slot10;slot10;weapon_knife"
+
+
+
+
+//////////// BUY SCRIPT /////////////
+
+bind alt "BuyType1;stopsound"
+
+alias BuyType1 "echo .:: COMPRAS BARATAS ::.;cl_righthand 0;bind leftarrow Izk2;bind rightarrow Derecha2;bind uparrow Arriba2;bind downarrow Abajo2;bind f FastAWP;bind alt Buy2"
+alias BuyType2 "echo .:: COMPRAS CARAS ::.;cl_righthand 1;bind leftarrow Izk;bind rightarrow Derecha;bind uparrow Arriba;bind downarrow Abajo;bind f FastColtAk;bind alt Buy1"
+
+alias FastColtAk "ColtAk;5w;BALAS;5w;CHALEKO;5w;HE;5w;Fx2"
+alias FastAWP "AWP;5w;DESERT;5w;BALAS;5w;CHALEKO;5w;HE;5w;Fx2"
+
+bind , "BALAS"
+
+alias Buy2 "BuyType2;stopsound"
+alias Buy1 "BuyType1;stopsound"
+
+////////////////////////////////////
+
+alias Izk "ColtAK;5w;BALAS"
+alias Derecha  "AWP;5w;BALAS"
+alias Arriba  "CHALEKO;5w;HE;5w;Fx2"
+alias Abajo  "DESERT;5w;BALAS"
+
+alias Izk2 bind leftarrow "NAVY;5w;BALAS"
+alias Derecha2 bind rightarrow "SCOUT;5w;BALAS"
+alias Arriba2 bind uparrow "CHALEKOFEO"
+alias Abajo2 bind downarrow "USP;5w;BALAS"
+

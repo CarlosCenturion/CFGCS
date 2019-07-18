@@ -1,0 +1,3 @@
+unbindall
+bind m "+commandmenu"
+bind TAB "+showscores"

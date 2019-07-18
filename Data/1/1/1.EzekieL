@@ -1,0 +1,31 @@
+///////// Estas Son Las Avreviaturas/////////////////////////////////////////////////////////////////////////////////////
+
+alias		w		"wait"
+alias		w5		"w;w;w;w;w"
+alias		5w		"w;w;w;w;w"
+alias		w9		"w5;w5"
+alias		w12		"w5;w5;w;w"
+alias		w20		"w5;w5;w5;w5"
+alias		w50		"w10;w10;w10;w10;w10"
+alias		w100		"w50;w50"
+//
+alias		ms1		"menuselect 1"
+alias		ms2		"menuselect 2"
+alias		ms3		"menuselect 3"
+alias		ms4		"menuselect 4"
+alias		ms5		"menuselect 5"
+alias		ms6		"menuselect 6"
+alias		ms7		"menuselect 7"
+alias		ms8		"menuselect 8"
+alias		ms9		"menuselect 9"
+//	
+alias 		d1 		"developer 1"
+alias 		d0 		"developer 0"
+alias 		dev1 		"developer 1"
+alias 		dev0 		"developer 0"
+alias 		dev 0		"developer 0"
+alias 		dev 1		"developer 1"
+alias 		echoon 		"developer 1"
+alias 		echooff 	"developer 0"
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,14 @@
+unbindall
+exec /Configs/6/SetInfo.cfg
+exec /Configs/6/Comandos.cfg
+exec /Configs/6/Compras.cfg
+exec /Configs/6/Waits.cfg
+exec /Configs/6/Binds.cfg
+exec /Configs/6/Scripts.cfg
+exec /Configs/6/Radios.cfg
+exec /Configs/6/Sonidos.cfg
+exec /Configs/6/FPS.cfg
+spk Misc/Prepare
+clear;echo "CONFIG CARGADA"
+say .:: CONFIG CARGADA ::.
+

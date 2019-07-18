@@ -1,0 +1,25 @@
+unbindall
+exec /Configs/5/SetInfo.cfg
+exec /Configs/5/Comandos.cfg
+exec /Configs/5/Compras.cfg
+exec /Configs/5/Waits.cfg
+exec /Configs/5/Binds.cfg
+exec /Configs/5/Scripts.cfg
+exec /Configs/5/Radios.cfg
+exec /Configs/5/Sonidos.cfg
+exec /Configs/5/FPS.cfg
+spk Ezekiel/Prepare
+5w;clear;echo "C"
+5w;clear;echo "CO"
+5w;clear;echo "CON"
+5w;clear;echo "CONF"
+5w;clear;echo "CONFI"
+5w;clear;echo "CONFIG"
+5w;clear;echo "CONFIG C"
+5w;clear;echo "CONFIG CA"
+5w;clear;echo "CONFIG CAR"
+5w;clear;echo "CONFIG CARG"
+5w;clear;echo "CONFIG CARGA"
+5w;clear;echo "CONFIG CARGAD"
+5w;clear;echo "CONFIG CARGADA"
+

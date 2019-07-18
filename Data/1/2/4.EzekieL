@@ -1,0 +1,41 @@
+///////////////////////////////////////////////////// BUY SCRIPT /////////////////////////////////////////////////
+
+alias Izk "ak47;m4a1;5w;primammo"
+alias Derecha  "awp;5w;primammo"
+alias Arriba  "vesthelm;5w;hegren;5w;Fx2"
+alias Abajo  "deagle;5w;secammo"
+
+alias Izk2 bind leftarrow "mp5;5w;primammo"
+alias Derecha2 bind rightarrow "scout;5w;primammo"
+alias Arriba2 bind uparrow "vest"
+alias Abajo2 bind downarrow "usp;5w;secammo"
+
+bind , "primammo"
+bind . "secammo"
+
+
+bind alt "BuyType1;stopsound"
+
+alias BuyType1 "echo .:: COMPRAS BARATAS ::.;cl_righthand 0;bind leftarrow Izk2;bind rightarrow Derecha2;bind uparrow Arriba2;bind downarrow Abajo2;bind f FastAWP;bind alt Buy2"
+alias BuyType2 "echo .:: COMPRAS CARAS ::.;cl_righthand 1;bind leftarrow Izk;bind rightarrow Derecha;bind uparrow Arriba;bind downarrow Abajo;bind f FastAC;bind alt Buy1"
+
+alias FastAC "AC;5w;BALAS;5w;vesthelm;5w;hegren;5w;Fx2"
+alias FastAWP "awp;5w;deagle;5w;BALAS;5w;vesthelm;5w;hegren;5w;Fx2"
+
+alias AC "ak47;m4a1"
+alias BALAS "primammo;secammo"
+alias Fx2 "flash;5w;flash"
+
+alias Buy2 "BuyType2;stopsound"
+alias Buy1 "BuyType1;stopsound"
+
+BuyType2
+cl_righthand 1
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ 
+
+
+

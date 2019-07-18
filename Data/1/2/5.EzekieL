@@ -1,0 +1,28 @@
+//////////////// FPS /////////////////////////////////////////////////////////////////////////////////////
+cl_showfps 1
+cl_corpsestay 0
+cl_himodels 0
+cl_shadows 1
+cl_weather 0
+developer 1
+fastsprites 3
+fps_max 100
+gl_cull 1
+gl_dither 1
+gl_lightholes 0
+gl_max_size 256
+gl_picmic 1
+gl_playermip 2
+gl_wateramp 0
+max_shells 0
+max_smokepuffs 0
+mp_decals 0
+r_decals 0
+r_dynamic 0
+r_mirroralpha 0
+violence_ablood 0
+violence_agibs 0
+violence_hbloods 0
+violence_hgibs 0
++mlook
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
